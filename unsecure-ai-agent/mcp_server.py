@@ -43,7 +43,7 @@ def get_product_info(product: str) -> dict | None:
     return tools.get_product_info(product)
 
 
-app = mcp.http_app(path="/mcp", transport="streamable-http", stateless_http=True, json_response=True)
+app = mcp.http_app(path="https://vercel.com/learning-3f70/customer-support-ai-agent/mcp", transport="streamable-http", stateless_http=True, json_response=True)
 
 
 if __name__ == "__main__":
